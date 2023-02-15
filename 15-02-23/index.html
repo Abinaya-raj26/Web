@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JS</title>
 </head>
 <body>
-    <button onclick="alertme()">
-       alert me
+    <p onclick="alertme()">
+       button 1
+    </p>
+    <button onclick="alertx()">
+        button 2
     </button>
 </body>
 <script>
+    function alertx(){
+        alert("hi");
+    }
     function alertme(){
   var balance =2000;
   var balance =3000;
   const name="Abinnnn";
   let time= "6pm";
-let date="15-02-23";
+  var date=Date();
+// let date="15-02-23";
 const day=" wednesday";
-console.log(balance +" "+name);
- alert( "x= "+ name +", Y=  "+balance+" date=" + date+ " "+ "day =" + day+" "  + "time =" +time);  
+console.log(balance +" "+name+time);
+ alert( "x= "+ name +", Y=  "+balance+" date=" + date+ " "+ "day =" + day+" "  + "time =" +time); 
+// alert("hi") 
+// alertx()
 }
 
 
