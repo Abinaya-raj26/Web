@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html,body{
+    width: 100vw !important;
+    margin:0px !important;
+    padding: 0px !important;
+    overflow-x: hidden !important;
+}
+body{
+    background-image: url('./bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    font-family: "Poppins";
+    text-align:center;
+    color:#fff;
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding:1rem;
+}
+.myimgs{
+    width:600px;  
+border-radius: 15px;
+margin:2rem;
+box-shadow:
+  0px 0px 2.2px rgba(0, 0, 0, 0.035),
+  0px 0px 5.3px rgba(0, 0, 0, 0.071),
+  0px 0px 10px rgba(0, 0, 0, 0.109),
+  0px 0px 17.9px rgba(0, 0, 0, 0.147),
+  0px 0px 33.4px rgba(0, 0, 0, 0.185),
+  0px 0px 80px rgba(0, 0, 0, 0.22)
+;
+
+
+}
+.phase0{
+    display: flex;
+    justify-content: center;
+}
+/* 
+.first{
+text-align: center;
+background-color: skyblue;
+color: black;
+}
+
+.phase{
+    text-align: center;
+    background-color: skyblue;
+}
+.frnds{
+    text-align: center;
+    background-color: skyblue;
+}
+.nope{
+    
+    width: 50vw;
+
+    text-align: center;
+    background-color: yellow; 
+    
+}
+.nope2{
+
+    text-align: center;
+    background-color: yellow;
+    width: 50vw;
+
+
+}
+.snd{
+    text-align: center;
+    background-color: yellow;
+    
+    width: 50vw;
+} */
