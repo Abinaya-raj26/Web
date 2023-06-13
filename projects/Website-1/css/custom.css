@@ -1,0 +1,46 @@
+.about-container{
+display: flex;
+margin: 0;
+padding: 0;
+height: 40rem;
+gap:5%;
+padding-top: 10px;
+}
+
+.about-container-l{
+width: 50%;
+
+}
+.about-container-r{
+    width: 50%;
+
+}
+.aboutmen{
+    width: 50rem;
+    height: 30rem;
+    border-radius: 20px;
+}
+.digital-container{
+    display: flex;
+    gap: 3%;
+}
+
+.digital-container1{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.digital-container2{
+    width: 50%;
+}
+.website-container{
+    display: flex;
+}
+.container-h1{
+     width: 50%;
+    padding-left: 5%;
+}
+    .container-h2{
+        width: 50%;
+        padding-left: 5%;
+    }
