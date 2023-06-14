@@ -1,0 +1,151 @@
+.about-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 40rem;
+    gap: 5%;
+    padding-top: 10px;
+}
+
+.about-container-l {
+    width: 50%;
+
+}
+
+.about-container-r {
+    width: 50%;
+
+}
+
+.aboutmen {
+    width: 50rem;
+    height: 30rem;
+    border-radius: 20px;
+    box-shadow:
+  5.1px 4.6px 2.2px rgba(0, 0, 0, 0.016),
+  10px 9px 5.3px rgba(0, 0, 0, 0.025),
+  15px 13.5px 10px rgba(0, 0, 0, 0.032),
+  21.2px 19px 17.9px rgba(0, 0, 0, 0.04),
+  30.8px 27.6px 33.4px rgba(0, 0, 0, 0.049),
+  48px 43px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+.digital-container {
+    display: flex;
+    gap: 3%;
+}
+
+.digital-container1 {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.digital-container2 {
+    width: 50%;
+
+}
+
+.website-container {
+    display: flex;
+    gap: 3%;
+}
+
+.website-1 {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.website-2 {
+    width: 50%;
+    padding-top: 2rem;
+    padding-left: 5%;
+    /* border-radius: ; */
+}
+
+.content-container {
+    display: flex;
+    gap: 10%;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-1 {
+    width: 50%;
+    padding-left: 10rem;
+}
+
+.container-2 {
+    width: 50%;
+}
+.br-10{
+    border-radius: 10px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+.influencer-container{
+    display: flex;
+ gap: 10%;
+}
+.influencer-1{
+    width: 50%;
+    /* padding-left: 20px; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.influencer-2{
+  width: 50%;
+}
+.public-container{
+    display: flex;
+    /* gap: 10%; */
+}
+.public-1{
+ width: 50%;
+}
+.public-2{
+    width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* align-items: center; */
+}
+.email-container{
+    display: flex;
+    /* gap: 10%; */
+}
+.email-1{
+  width: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.email-2{
+    width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.media-container{
+    display: flex;
+}
+.media-1{
+    width: 50%;
+    
+}
+.media-2{
+    width: 50%;
+    
+}
