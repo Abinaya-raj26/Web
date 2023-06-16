@@ -1,18 +1,1 @@
-@mixin box-shadow($shadow...) {
-  @if $enable-shadows {
-    $result: ();
-
-    @each $value in $shadow {
-      @if $value != null {
-        $result: append($result, $value, "comma");
-      }
-      @if $value == none and length($shadow) > 1 {
-        @warn "The keyword 'none' must be used as a single argument.";
-      }
-    }
-
-    @if (length($result) > 0) {
-      box-shadow: $result;
-    }
-  }
-}
+@mixin box-shadow($shadow...) {teurasiabc@gmail.com  @if $enable-shadows {teurasiabc@gmail.com    $result: ();teurasiabc@gmail.comteurasiabc@gmail.com    @each $value in $shadow {teurasiabc@gmail.com      @if $value != null {teurasiabc@gmail.com        $result: append($result, $value, "comma");teurasiabc@gmail.com      }teurasiabc@gmail.com      @if $value == none and length($shadow) > 1 {teurasiabc@gmail.com        @warn "The keyword 'none' must be used as a single argument.";teurasiabc@gmail.com      }teurasiabc@gmail.com    }teurasiabc@gmail.comteurasiabc@gmail.com    @if (length($result) > 0) {teurasiabc@gmail.com      box-shadow: $result;teurasiabc@gmail.com    }teurasiabc@gmail.com  }teurasiabc@gmail.com}teurasiabc@gmail.com

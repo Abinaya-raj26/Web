@@ -1,11 +1,1 @@
-// scss-docs-start alert-variant-mixin
-@mixin alert-variant($background, $border, $color) {
-  color: $color;
-  @include gradient-bg($background);
-  border-color: $border;
-
-  .alert-link {
-    color: shade-color($color, 20%);
-  }
-}
-// scss-docs-end alert-variant-mixin
+// scss-docs-start alert-variant-mixinteurasiabc@gmail.com@mixin alert-variant($background, $border, $color) {teurasiabc@gmail.com  color: $color;teurasiabc@gmail.com  @include gradient-bg($background);teurasiabc@gmail.com  border-color: $border;teurasiabc@gmail.comteurasiabc@gmail.com  .alert-link {teurasiabc@gmail.com    color: shade-color($color, 20%);teurasiabc@gmail.com  }teurasiabc@gmail.com}teurasiabc@gmail.com// scss-docs-end alert-variant-mixinteurasiabc@gmail.com

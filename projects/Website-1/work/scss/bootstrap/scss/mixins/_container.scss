@@ -1,9 +1,1 @@
-// Container mixins
-
-@mixin make-container($gutter: $container-padding-x) {
-  width: 100%;
-  padding-right: var(--#{$variable-prefix}gutter-x, #{$gutter});
-  padding-left: var(--#{$variable-prefix}gutter-x, #{$gutter});
-  margin-right: auto;
-  margin-left: auto;
-}
+// Container mixinsteurasiabc@gmail.comteurasiabc@gmail.com@mixin make-container($gutter: $container-padding-x) {teurasiabc@gmail.com  width: 100%;teurasiabc@gmail.com  padding-right: var(--#{$variable-prefix}gutter-x, #{$gutter});teurasiabc@gmail.com  padding-left: var(--#{$variable-prefix}gutter-x, #{$gutter});teurasiabc@gmail.com  margin-right: auto;teurasiabc@gmail.com  margin-left: auto;teurasiabc@gmail.com}teurasiabc@gmail.com
