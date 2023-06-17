@@ -41,6 +41,7 @@
 .digital-container1 {
     width: 50%;
     padding-left: 5%;
+    
 }
 
 .digital-container2 {
@@ -50,20 +51,28 @@
 
 .website-container {
     display: flex;
-    gap: 3%;
+    /* gap: 3%; */
 }
 
 .website-1 {
     width: 50%;
-    padding-left: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    /* padding-top: 8%; */
 }
 
 .website-2 {
     width: 50%;
-    padding-top: 2rem;
-    padding-left: 5%;
-    /* border-radius: ; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
+    /* border-radius: ; */
+
 
 .content-container {
     display: flex;
@@ -96,7 +105,7 @@
 }
 .influencer-container{
     display: flex;
- gap: 10%;
+ /* gap: 10%; */
 }
 .influencer-1{
     width: 50%;
@@ -105,6 +114,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    text-align: left;
 
 }
 .influencer-2{
@@ -126,20 +136,29 @@
 }
 .email-container{
     display: flex;
-    /* gap: 10%; */
-}
-.email-1{
-  width: 50%;
-  display: flex;
-  align-content: center;
+    align-content: center;
   justify-content: center;
 }
+.email-1{
+  /* width: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center; */
+  width: 50%;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    text-align: center;
+}
 .email-2{
+
     width: 50%;
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+
 .media-container{
     display: flex;
 }
