@@ -10,12 +10,19 @@
 .about-container-l {
     width: 50%;
     text-align: left;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
     /* padding-right: 5%; */
 
 }
 
 .about-container-r {
     width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 
 }
 
