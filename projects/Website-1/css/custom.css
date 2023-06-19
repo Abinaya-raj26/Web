@@ -164,11 +164,13 @@
 }
 .media-1{
     width: 50%;
+    padding-top: 5%;
     
 }
 .media-2{
     width: 50%;
-    
+    padding-top: 3%;
+    padding-right: 5%;
 }
 
 
@@ -196,4 +198,12 @@
 											  rgba(255, 255, 255, .2) 75%,
 											  transparent 75%,
 											  transparent)
+}
+.map-all{
+    color: white;
+    font-weight: bold;
+}
+.unlist{
+    
+    list-style-type: square;
 }
