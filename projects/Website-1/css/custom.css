@@ -273,3 +273,7 @@ display: flex;
     justify-content: center;
     align-content: center;
 }
+.con-1{
+    color: white;
+    font-weight: bold;
+}
