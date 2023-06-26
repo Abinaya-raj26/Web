@@ -33,8 +33,8 @@
 }
 
 .aboutmen {
-    width: 50rem;
-    height: 30rem;
+    width: 100%;
+    /* height: 30rem; */
     border-radius: 20px;
     box-shadow:
   5.1px 4.6px 2.2px rgba(0, 0, 0, 0.016),
@@ -179,13 +179,12 @@
     display: flex;
 }
 .media-1{
-    width: 50%;
-    padding-top: 5%;
+    /* width: 50%; */
+    /* padding-top: 5%; */
     text-align: left;
     
 }
 .media-2{
-    width: 50%;
     padding-top: 3%;
     padding-right: 5%;
 }
@@ -278,4 +277,8 @@ display: flex;
 .con-1{
     color: white;
     font-weight: bold;
+}
+.activex{
+    background-color: #2f3835;
+    color: white;
 }

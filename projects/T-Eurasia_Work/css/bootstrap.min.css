@@ -7669,7 +7669,7 @@ fieldset:disabled .btn {
 
 .mx-3 {
     margin-right: 1rem !important;
-    margin-left: 1rem !important
+    /* margin-left: 1rem !important */
 }
 
 .mx-4 {
@@ -7679,7 +7679,7 @@ fieldset:disabled .btn {
 
 .mx-5 {
     margin-right: 3rem !important;
-    margin-left: 3rem !important
+    margin-left: 2rem !important
 }
 
 .mx-auto {
@@ -8064,8 +8064,8 @@ fieldset:disabled .btn {
 }
 
 .py-5 {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important
 }
 
 .pt-0 {
