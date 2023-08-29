@@ -1,46 +1,23 @@
-h1{
-    background-color: purple;
-    display: inline;
-}
-h4{
-    background-color: blue;
-display: block;
-}
-p{
-    background-color: pink;
- display: inline-block;
- width: 100px;
-}
-.one{
-    background-color: black;
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    
-}
-.two{
-    background-color: red;
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-}
-h1{
-    background-color: yellow; !important
-}
-p{
-    background-color: red;!important
-}
-h3{
+nav{
     background-color: black;
     color: white;
-    display: inline;
-    padding: 10px;
-    margin-right: ;
+    padding: 20px;
+
+    
 }
 li{
     background-color: black;
-    color: white;
-    display: inline;
-    padding: 10px;
-    margin-left: 10px;
+    color:white;
+    padding-left:40px ;
+    
+}
+h1, li, ul{
+display: inline;
+}
+ul{
+    margin-left: 70%;
+    
+}
+h1{
+    padding-left: 40px;
 }
