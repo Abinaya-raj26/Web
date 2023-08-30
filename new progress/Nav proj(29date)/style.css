@@ -35,3 +35,49 @@ input{
     text-align: center;
     padding: 50px;
 }
+.box1{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 190px;
+  
+}
+.box2{
+    display: inline-block;
+    width: 190px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+.box3{
+    display: inline-block;
+    width: 190px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+.products{
+    padding-left: 50px;
+    text-align: center;
+
+    
+}
+.box1:hover,.box2:hover,.box3:hover{
+    background-color: black;
+    color: white;
+}
+.about{
+    text-align: center;
+    padding: 25px;
+   margin-top: 20px;
+}
+.contact{
+    /* display: block; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    
+}
