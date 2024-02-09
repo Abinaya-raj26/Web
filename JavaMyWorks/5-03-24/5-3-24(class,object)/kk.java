@@ -12,7 +12,7 @@ class computer {
     }
 }
 
-public class abi {
+public class kk {
  public static void main(String[] args) {
     int num1 = 5;
     int num2 = 5;
