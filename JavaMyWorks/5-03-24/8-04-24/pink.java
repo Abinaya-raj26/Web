@@ -2,12 +2,15 @@
 
 public class pink {
     public static void main(String[] args){
-        int num1= 89;
-        char num2='b';
-        String num3= "Abinaya";
-        double num4= 8.0;
-        float num5=66.66f;
-        System.out.println(num1 +" " + num2 +" "+ num3);
+       int num1=5;
+       Integer num2= num1;
+       int num4= num1;
+
+       System.out.println(num4);
+         
+      String str="10";
+       int num3= Integer.parseInt(str);
+       System.out.println(num3*2);
     }
     
 }
